@@ -9,3 +9,4 @@ services used:
 npm commands:
 - npm init
 - npm i -D nodemon
+- npm i -D prettier
