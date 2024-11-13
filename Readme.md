@@ -5,9 +5,11 @@ Heres the Data Model Link, do check it out:
 
 services used:
 - [gitignore_generater](https://mrkandreev.name/snippets/gitignore-generator/#Node)
+- MongoDB Atlas
 
 npm commands:
 - npm init
 - npm i -D nodemon
 - npm i -D prettier
 - npm i mongoose express dotenv
+- npm i cookie-parser cors
