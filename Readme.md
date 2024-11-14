@@ -13,3 +13,5 @@ npm commands:
 - npm i -D prettier
 - npm i mongoose express dotenv
 - npm i cookie-parser cors
+- npm i mongoose-aggregate-paginate-v2  [Aggregation Pipeline]
+- npm i bcrypt jsonwebtoken
