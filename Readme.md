@@ -15,3 +15,4 @@ npm commands:
 - npm i cookie-parser cors
 - npm i mongoose-aggregate-paginate-v2  [Aggregation Pipeline]
 - npm i bcrypt jsonwebtoken
+- npm i cloudinary multer
