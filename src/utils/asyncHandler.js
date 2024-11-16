@@ -1,7 +1,7 @@
 //async handler using try-catch & async-await
 const asyncHandler = (fn) => { async (req,res,next) => {
     try {
-        await fn(req,res,next)
+        return await fn(req,res,next)
     } catch (error) {
         res.send(err.code).json({
             success: false,
@@ -12,11 +12,11 @@ const asyncHandler = (fn) => { async (req,res,next) => {
 
 //async handler with promise
 const asyncHandler1 = (reqHandler)=>{
-    (req,res,next) => {
+    return (req,res,next) => {
         Promise
         .resolve(reqHandler(req,res,next))
         .catch((err)=>next(err))
     }
 }
 
-export {asyncHandler}
+export {asyncHandler1}

@@ -19,4 +19,10 @@ app.use(express.urlencoded())
 //kuch bhi file ho to usko public folder mai dalo
 app.use(express.static("public"))
 app.use(cookieParser()) //use cookie
-export default app;
+
+//routes
+import userRouter from "./routes/user.routes.js"
+
+app.use("/api/v1/users",userRouter)  //http:8000/api/v1/users/register
+
+export {app};
