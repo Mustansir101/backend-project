@@ -9,8 +9,6 @@ import {
 import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 
-// 87654321
-
 const generateAccessAndRefreshToken = async (userID) => {
   try {
     const user = await User.findById(userID);
