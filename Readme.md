@@ -1,4 +1,4 @@
-#  VideoTube API Documentation
+#  VidFlix API Documentation
 
 ##  Overview
 VideoTube is a YouTube-like video-sharing platform with features such as video uploads, subscriptions, likes, comments, and user authentication. This API allows developers to interact with VideoTube’s backend using RESTful endpoints.
